@@ -1,4 +1,10 @@
+# Ignore virtual environment
+venv/
+can/
+
+# Ignore Python bytecode
 __pycache__/
-.ipynb_checkpoints/
-data/  # If you plan to keep a separate raw data file in a 'data' folder
 *.pyc
+
+# Ignore saved model and scaler
+*.joblib
