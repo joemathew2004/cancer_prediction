@@ -41,25 +41,25 @@ Run the `app.py` script using Streamlit to interact with the web application:
 streamlit run app.py
 ```
 
-### Data Source
+## Data Source
 
 The project uses the Breast Cancer dataset (contained in `Cancer_Data.csv`). 
 
-This dataset is publicly available on Kaggle:[Benign and malignant Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
+This dataset is publicly available on Kaggle: [Benign and malignant Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
 
 Please refer to the Kaggle page for more information about the dataset, its attributes, and any applicable licenses.
 
-### Model
+## Model
 
 A Logistic Regression model was used for prediction.
 
-### Libraries
+## Libraries
 
 * Streamlit
 * Pandas
 * Scikit-learn
 * Joblib
 
-### Author
+## Author
 
 Joe Mathew
