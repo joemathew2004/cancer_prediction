@@ -40,8 +40,8 @@ streamlit run app.py
 ```
 
 ### Data Source
-The project uses the Breast Cancer dataset (contained in `Cancer_Data.csv`). This dataset is publicly available on Kaggle:
-[Breast Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
+The project uses the Breast Cancer dataset (contained in `Cancer_Data.csv`). 
+This dataset is publicly available on Kaggle:[Breast Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
 Please refer to the Kaggle page for more information about the dataset, its attributes, and any applicable licenses.
 
 ### Model
