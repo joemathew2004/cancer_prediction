@@ -26,27 +26,32 @@ python train.py
 ```
 
 ### Terminal Prediction
-Run the predict_terminal.py script to get a prediction by entering feature values in the terminal:
+Run the `cancer_pred.py` script to get a prediction by entering feature values in the terminal:
 
-Bash
+```bash
+python cancer_pred.py
+```
 
-python predict_terminal.py
-Web Application
-Run the app.py script using Streamlit to interact with the web application:
+### Web Application
+Run the `app.py` script using Streamlit to interact with the web application:
 
-Bash
-
+```bash
 streamlit run app.py
-Data Source
-The project uses the Breast Cancer dataset (contained in Cancer_Data.csv).
+```
 
-Model
+### Data Source
+The project uses the Breast Cancer dataset (contained in `Cancer_Data.csv`). This dataset is publicly available on Kaggle:
+[Breast Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
+Please refer to the Kaggle page for more information about the dataset, its attributes, and any applicable licenses.
+
+### Model
 A Logistic Regression model was used for prediction.
 
-Libraries
+### Libraries
 Streamlit
 Pandas
 Scikit-learn
 Joblib
-Author
-[Your Name/GitHub Username]
+
+### Author
+Joe Mathew
