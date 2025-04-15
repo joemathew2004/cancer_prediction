@@ -1,0 +1,4 @@
+__pycache__/
+.ipynb_checkpoints/
+data/  # If you plan to keep a separate raw data file in a 'data' folder
+*.pyc
