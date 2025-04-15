@@ -26,6 +26,7 @@ python train.py
 ```
 
 ### Terminal Prediction
+
 Run the `cancer_pred.py` script to get a prediction by entering feature values in the terminal:
 
 ```bash
@@ -33,6 +34,7 @@ python cancer_pred.py
 ```
 
 ### Web Application
+
 Run the `app.py` script using Streamlit to interact with the web application:
 
 ```bash
@@ -40,18 +42,24 @@ streamlit run app.py
 ```
 
 ### Data Source
+
 The project uses the Breast Cancer dataset (contained in `Cancer_Data.csv`). 
-This dataset is publicly available on Kaggle:[Breast Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
+
+This dataset is publicly available on Kaggle:[Benign and malignant Cancer Dataset on Kaggle](https://www.kaggle.com/datasets/erdemtaha/cancer-data) 
+
 Please refer to the Kaggle page for more information about the dataset, its attributes, and any applicable licenses.
 
 ### Model
+
 A Logistic Regression model was used for prediction.
 
 ### Libraries
-Streamlit
-Pandas
-Scikit-learn
-Joblib
+
+* Streamlit
+* Pandas
+* Scikit-learn
+* Joblib
 
 ### Author
+
 Joe Mathew
